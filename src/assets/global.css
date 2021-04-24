@@ -1,0 +1,24 @@
+/*
+ * Global styling (CSS variables, typography, global layout)
+ */
+
+:root {
+    --color-neutral1: #FFFFFF; /* White */
+    --color-neutral2: #F2F3F2; /* Light Gray */
+    --color-neutral3: #9E9594; /* Gray */
+    --color-neutral4: #6B6261; /* Dark Gray */
+    --color-neutral5: #140806; /* Black */
+    --color-neutral6: #080302; /* Dark Black */
+    --color-accent1: #004D25; /* Dark Green */
+    --color-accent2: #009F4C; /* Green */
+    --color-accent3: #FFCC00; /* Yellow */
+    --color-accent4: #CC0000; /* Red */
+}
+
+html,
+body {
+    margin: 0;
+    line-height: 1.5;
+    font: 400 1rem 'Source Sans Variable', 'Segoe UI', 'Helvetica', sans-serif;
+    background: var(--color-neutral5);
+}
